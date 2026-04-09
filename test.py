@@ -18,3 +18,5 @@ def test():
     pass
 
 print("hello")
+test()
+seconf_f()
