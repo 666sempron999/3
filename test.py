@@ -18,5 +18,5 @@ def test():
     pass
 
 print("hello")
-test()
-seconf_f()
+# test()
+# seconf_f()
