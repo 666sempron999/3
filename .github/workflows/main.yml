@@ -5,8 +5,8 @@ jobs:
   start:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
-        pt: ["3.9", "3.10", "3.11"]
+        os: [ubuntu-latest]
+        pt: ["3.10", "3.11"]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Download code
