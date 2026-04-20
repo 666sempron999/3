@@ -1,22 +1,7 @@
-def main(num):
-    pass
+#!/usr/bin/python3
 
-def seconf_f():
-    if(1 == num):
-        print("1")
-    res = int(input())
-    pass
-    
+def main():
+    print("hello")
 
-def print_massage():
-    print(Hello, world)
-    pass
-
-def test():
-    if(num == 2):
-        print("2dsfsdfsdfhskjdfhfhsdfjshdkfjhskjdhfkjshdfhskjdhfkjshdkfjhskjdhfkjsdhfjhjkshdjfhkhsdhfkhksjdfhshdfhksdjfhksdhfkjhsdkjfhk")
-    pass
-
-print("hello")
-# test()
-# seconf_f()
+if __name__ == '__main__':
+    main()
