@@ -22,3 +22,10 @@ jobs:
           arguments: '--max-line-length=120'
       - name: run code
         run: python test.py
+
+      - name: Download All Artifacts
+        uses: actions/download-artifact@v8
+        with:
+          path: .
+          pattern: test.txt
+      - run: ls -l
