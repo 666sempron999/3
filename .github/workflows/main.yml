@@ -24,12 +24,12 @@ jobs:
       - name: Install dependencies
         run:
           python -m pip install numpy
-          
+
       - name: run code
         run: python test.py
 
       - name: Download All Artifacts
-        uses: actions/download-artifact@v8
+        uses: actions/upload-artifact@v4
         with:
           path: .
           pattern: test.txt
